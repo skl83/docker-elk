@@ -2,14 +2,15 @@
 
 Forked from https://github.com/deviantony/docker-elk
 
-Changed to non OSS versions.
+* Changed to non OSS versions.
 
-Logtrail plugin added by default.
+* Logtrail plugin added by default.
 
-/data mount added for persisting ES data.
-/plugins mount added for kibana plugins.
+* Data mounts added:
+** /data mount added for persisting ES data.
+** /plugins mount added for kibana plugins.
 
-Java memory allocaiton increased to 2Gb xmx for ES, 1Gb xmx for Logstash
+* Java memory allocaiton increased to 2Gb xmx for ES, 1Gb xmx for Logstash
 
 [![Join the chat at https://gitter.im/deviantony/docker-elk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deviantony/docker-elk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
