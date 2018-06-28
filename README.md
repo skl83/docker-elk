@@ -9,6 +9,8 @@ Logtrail plugin added by default.
 /data mount added for persisting ES data.
 /plugins mount added for kibana plugins.
 
+Java memory allocaiton increased to 2Gb xmx for ES, 1Gb xmx for Logstash
+
 [![Join the chat at https://gitter.im/deviantony/docker-elk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deviantony/docker-elk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Run the latest version of the [Elastic stack](https://www.elastic.co/elk-stack) with Docker and Docker Compose.
