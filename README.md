@@ -7,8 +7,8 @@ Forked from https://github.com/deviantony/docker-elk
 * Logtrail plugin added by default.
 
 * Data mounts added:
-** /data mount added for persisting ES data.
-** /plugins mount added for kibana plugins.
+  * /data mount added for persisting ES data.
+  * /plugins mount added for kibana plugins.
 
 * Java memory allocaiton increased to 2Gb xmx for ES, 1Gb xmx for Logstash
 
