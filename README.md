@@ -1,8 +1,11 @@
 # Elastic stack (ELK) on Docker
 
 Forked from https://github.com/deviantony/docker-elk
+
 Changed to non OSS versions.
+
 Logtrail plugin added by default.
+
 /data mount added for persisting ES data.
 /plugins mount added for kibana plugins.
 
